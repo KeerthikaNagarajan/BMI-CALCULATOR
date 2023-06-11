@@ -1,7 +1,15 @@
-# EXP 08 - CREATE A BMI CALCULATOR
-## Program:
-```
-
+# EX-08: 
+## CREATE A BMI CALCULATOR
+### AIM:
+The aim of this code is to create a BMI (Body Mass Index) calculator using React. The calculator takes inputs for weight and height and calculates the BMI value based on the provided values. It then displays the calculated BMI value to the user.
+### ALGORITHM:
+1. Create a functional component called "BMICalculator".
+2. Use the useState hook to define state variables for weight, height, and bmi.
+3. Implement a function called "calculateBMI" that calculates the BMI value using the weight and height inputs.
+4. Update the BMI state variable with the calculated BMI value.
+5. Export the BMICalculator component as the default export.
+### PROGRAM:
+```javascript
 import React, { useState } from 'react';
 
 function BMICalculator() {
@@ -45,9 +53,11 @@ function BMICalculator() {
 export default BMICalculator;
 
 ```
-## Output:
+### OUTPUT:
 
 <img width="364" alt="1" src="https://github.com/KeerthikaNagarajan/BMI-CALCULATOR/assets/93427089/0a9a5477-f91c-4465-b24b-88754fc77076">
 
 <img width="345" alt="2" src="https://github.com/KeerthikaNagarajan/BMI-CALCULATOR/assets/93427089/16dd2140-2cd4-4e1b-9b03-d711010090ff">
 
+### RESULT:
+The code will generate a BMI calculator with input fields for weight and height. 
